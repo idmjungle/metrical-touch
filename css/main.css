@@ -1,0 +1,128 @@
+@charset "utf-8";
+body {
+	margin: 0;
+	overflow: hidden;
+}
+.window {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	-moz-transition: all 5000ms ease-in-out;
+	-ms-transition: all 5000ms ease-in-out;
+	-o-transition: all 5000ms ease-in-out;
+	transition: all 5000ms ease-in-out;
+}
+.intro {
+	background-color: #1E8BC3;
+}
+.main {
+	background-color: #F22613;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.intro_logo {
+	background-image: url(../images/metricial_logo.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 75%;
+	height: 75%;
+	opacity: 1;
+	-webkit-transition: all 500ms ease-in-out;
+	-moz-transition: all 500ms ease-in-out;
+	-ms-transition: all 500ms ease-in-out;
+	-o-transition: all 500ms ease-in-out;
+	transition: all 500ms ease-in-out;
+}
+.logo_transition {
+	width: 85%;
+	height: 85%;
+	-webkit-transition: all 2000ms ease-in-out;
+	-moz-transition: all 2000ms ease-in-out;
+	-ms-transition: all 2000ms ease-in-out;
+	-o-transition: all 2000ms ease-in-out;
+	transition: all 2000ms ease-in-out;
+}
+.logo_start {
+	opacity: 0;
+	width: 0%;
+	height: 0%;
+}
+.logo_end {
+	opacity: 0;
+	width: 175%;
+	height: 175%;
+}
+.main.ng-leave {
+	z-index: 9999;
+}
+.main.ng-enter {
+	z-index: 8888;
+}
+.main.ng-leave         {
+	-webkit-animation: fadeOut 1s both ease-in;
+	-moz-animation: fadeOut 1s both ease-in;
+	animation: fadeOut 1s both ease-in;
+}
+.main.ng-enter 		{  
+    -webkit-animation:fadeIn 0.5s both ease-in;
+	-moz-animation:fadeIn 0.5s both ease-in;
+	animation:fadeIn 0.5s both ease-in;    
+}
+
+
+ @-webkit-keyframes fadeOut {
+ from {
+	opacity: 1;
+}
+ to {
+	opacity: 0;
+}
+}
+@-moz-keyframes fadeOut {
+ from {
+	opacity: 1;
+}
+ to {
+	opacity: 0;
+}
+}
+@keyframes fadeOut {
+ from {
+	opacity: 1;
+}
+ to {
+	opacity: 0;
+}
+}
+
+ @-webkit-keyframes fadeIn {
+ from {
+	opacity: 0;
+}
+ to {
+	opacity: 1;
+}
+}
+@-moz-keyframes fadeIn {
+ from {
+	opacity: 0;
+}
+ to {
+	opacity: 1;
+}
+}
+@keyframes fadeIn {
+ from {
+	opacity: 0;
+}
+ to {
+	opacity: 1;
+}
+}
