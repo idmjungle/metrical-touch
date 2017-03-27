@@ -8,6 +8,14 @@
 
 <link href="/touch/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/touch/css/main.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+
+<!-- The Basics -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="/touch/js/bootstrap.min.js"></script>
+<script src="/touch/js/slick.min.js"></script>
 
 <!-- Angular Library -->
 
@@ -21,6 +29,7 @@
 <script src="/touch/lib/angular/angular-resource.min.js"></script>
 <script src="/touch/lib/angular/angular-cookies.min.js"></script>
 <script src="/touch/lib/angular/ngMeta.min.js"></script>
+<script src="/touch/lib/angular/slick.min.js"></script>
 
 <!-- The App JS -->
 
