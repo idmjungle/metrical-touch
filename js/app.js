@@ -14,7 +14,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 			redirectTo: 'intro'
 		});
 		
-		$locationProvider.html5Mode(true);
+		//$locationProvider.html5Mode(true);
 }])
 	.run(function(ngMeta) {
 		ngMeta.init();
