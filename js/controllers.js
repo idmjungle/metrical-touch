@@ -23,9 +23,14 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 }]);
 
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', function($scope, $rootScope, $http, $cookies, $location, $timeout) {
-	$http.get("../data/example.json")
+	$http.get("data/example.json")
 	.then(function(response){
 		console.log(response);
+		$scope.viewData = response.data;
+		console.log($scope.viewData);
+		$scope.pageviews = $scope.viewData.rows[0][0];
+		$scope.totalEvents = $scope.viewData.rows[0][1];
+		$scope.socialInteractions = $scope.viewData.rows[0][2];
 	});
 
 	
