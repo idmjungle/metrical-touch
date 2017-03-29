@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AdministrationRegion.php" server="C:/xampp/htdocs/touch/" local="131352057710033912" remote="131352057710000000" Dst="0" />
+<file name="AdministrativeBody.php" server="C:/xampp/htdocs/touch/" local="131352057710048952" remote="131352057710000000" Dst="0" />
+<file name="Candidate.php" server="C:/xampp/htdocs/touch/" local="131352057710063988" remote="131352057710000000" Dst="0" />
+<file name="Channel.php" server="C:/xampp/htdocs/touch/" local="131352057710079032" remote="131352057710000000" Dst="0" />
+<file name="Contest.php" server="C:/xampp/htdocs/touch/" local="131352057710094076" remote="131352057710000000" Dst="0" />
+<file name="ContextParams.php" server="C:/xampp/htdocs/touch/" local="131352057710109116" remote="131352057710000000" Dst="0" />
+<file name="DivisionRepresentativeInfoRequest.php" server="C:/xampp/htdocs/touch/" local="131352057710119147" remote="131352057710000000" Dst="0" />
+<file name="DivisionSearchRequest.php" server="C:/xampp/htdocs/touch/" local="131352057710134179" remote="131352057710000000" Dst="0" />
+<file name="DivisionSearchResponse.php" server="C:/xampp/htdocs/touch/" local="131352057710144205" remote="131352057710000000" Dst="0" />
+<file name="DivisionSearchResult.php" server="C:/xampp/htdocs/touch/" local="131352057710159245" remote="131352057710000000" Dst="0" />
+<file name="Election.php" server="C:/xampp/htdocs/touch/" local="131352057710169272" remote="131352057710000000" Dst="0" />
+<file name="ElectionOfficial.php" server="C:/xampp/htdocs/touch/" local="131352057710179299" remote="131352057710000000" Dst="0" />
+<file name="ElectionsQueryRequest.php" server="C:/xampp/htdocs/touch/" local="131352057710194339" remote="131352057710000000" Dst="0" />
+<file name="ElectionsQueryResponse.php" server="C:/xampp/htdocs/touch/" local="131352057710209379" remote="131352057710000000" Dst="0" />
+<file name="ElectoralDistrict.php" server="C:/xampp/htdocs/touch/" local="131352057710219409" remote="131352057710000000" Dst="0" />
+<file name="GeographicDivision.php" server="C:/xampp/htdocs/touch/" local="131352057710234449" remote="131352057710000000" Dst="0" />
+<file name="Office.php" server="C:/xampp/htdocs/touch/" local="131352057710249493" remote="131352057710000000" Dst="0" />
+<file name="Official.php" server="C:/xampp/htdocs/touch/" local="131352057710269539" remote="131352057710000000" Dst="0" />
+<file name="PollingLocation.php" server="C:/xampp/htdocs/touch/" local="131352057710279565" remote="131352057710000000" Dst="0" />
+<file name="PostalAddress.php" server="C:/xampp/htdocs/touch/" local="131352057710299623" remote="131352057710000000" Dst="0" />
+<file name="RepresentativeInfoData.php" server="C:/xampp/htdocs/touch/" local="131352057710364792" remote="131352057710000000" Dst="0" />
+<file name="RepresentativeInfoRequest.php" server="C:/xampp/htdocs/touch/" local="131352057710379832" remote="131352057710000000" Dst="0" />
+<file name="RepresentativeInfoResponse.php" server="C:/xampp/htdocs/touch/" local="131352057710394876" remote="131352057710000000" Dst="0" />
+<file name="SimpleAddressType.php" server="C:/xampp/htdocs/touch/" local="131352057710495139" remote="131352057710000000" Dst="0" />
+<file name="Source.php" server="C:/xampp/htdocs/touch/" local="131352057710510183" remote="131352057710000000" Dst="0" />
+<file name="VoterInfoRequest.php" server="C:/xampp/htdocs/touch/" local="131352057710530232" remote="131352057710000000" Dst="0" />
+<file name="VoterInfoResponse.php" server="C:/xampp/htdocs/touch/" local="131352057710550293" remote="131352057710000000" Dst="0" />
+<file name="VoterInfoSegmentResult.php" server="C:/xampp/htdocs/touch/" local="131352057710570339" remote="131352057710000000" Dst="0" />
+</dwsync>

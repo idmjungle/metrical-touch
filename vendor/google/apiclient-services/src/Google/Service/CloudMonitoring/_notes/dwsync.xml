@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="DeleteMetricDescriptorResponse.php" server="C:/xampp/htdocs/touch/" local="131352057715734076" remote="131352057710000000" Dst="0" />
+<file name="ListMetricDescriptorsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057715749116" remote="131352057710000000" Dst="0" />
+<file name="ListMetricDescriptorsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057715769165" remote="131352057710000000" Dst="0" />
+<file name="ListTimeseriesDescriptorsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057715784202" remote="131352057710000000" Dst="0" />
+<file name="ListTimeseriesDescriptorsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057715799249" remote="131352057710000000" Dst="0" />
+<file name="ListTimeseriesRequest.php" server="C:/xampp/htdocs/touch/" local="131352057715809268" remote="131352057710000000" Dst="0" />
+<file name="ListTimeseriesResponse.php" server="C:/xampp/htdocs/touch/" local="131352057715849379" remote="131352057710000000" Dst="0" />
+<file name="MetricDescriptor.php" server="C:/xampp/htdocs/touch/" local="131352057715884476" remote="131352057710000000" Dst="0" />
+<file name="MetricDescriptorLabelDescriptor.php" server="C:/xampp/htdocs/touch/" local="131352057715904529" remote="131352057710000000" Dst="0" />
+<file name="MetricDescriptorTypeDescriptor.php" server="C:/xampp/htdocs/touch/" local="131352057715919569" remote="131352057710000000" Dst="0" />
+<file name="Point.php" server="C:/xampp/htdocs/touch/" local="131352057715934605" remote="131352057710000000" Dst="0" />
+<file name="PointDistribution.php" server="C:/xampp/htdocs/touch/" local="131352057715944628" remote="131352057710000000" Dst="0" />
+<file name="PointDistributionBucket.php" server="C:/xampp/htdocs/touch/" local="131352057715959676" remote="131352057710000000" Dst="0" />
+<file name="PointDistributionOverflowBucket.php" server="C:/xampp/htdocs/touch/" local="131352057715974716" remote="131352057710000000" Dst="0" />
+<file name="PointDistributionUnderflowBucket.php" server="C:/xampp/htdocs/touch/" local="131352057715989748" remote="131352057710000000" Dst="0" />
+<file name="Timeseries.php" server="C:/xampp/htdocs/touch/" local="131352057716074979" remote="131352057710000000" Dst="0" />
+<file name="TimeseriesDescriptor.php" server="C:/xampp/htdocs/touch/" local="131352057716090019" remote="131352057710000000" Dst="0" />
+<file name="TimeseriesDescriptorLabel.php" server="C:/xampp/htdocs/touch/" local="131352057716105055" remote="131352057710000000" Dst="0" />
+<file name="TimeseriesPoint.php" server="C:/xampp/htdocs/touch/" local="131352057716115082" remote="131352057710000000" Dst="0" />
+<file name="WriteTimeseriesRequest.php" server="C:/xampp/htdocs/touch/" local="131352057716130129" remote="131352057710000000" Dst="0" />
+<file name="WriteTimeseriesResponse.php" server="C:/xampp/htdocs/touch/" local="131352057716150183" remote="131352057710000000" Dst="0" />
+</dwsync>

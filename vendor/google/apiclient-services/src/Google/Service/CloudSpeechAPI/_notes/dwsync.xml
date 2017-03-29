@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AsyncRecognizeRequest.php" server="C:/xampp/htdocs/touch/" local="131352057718050236" remote="131352057710000000" Dst="0" />
+<file name="CancelOperationRequest.php" server="C:/xampp/htdocs/touch/" local="131352057718065272" remote="131352057710000000" Dst="0" />
+<file name="ListOperationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057718080312" remote="131352057710000000" Dst="0" />
+<file name="Operation.php" server="C:/xampp/htdocs/touch/" local="131352057718095352" remote="131352057710000000" Dst="0" />
+<file name="RecognitionAudio.php" server="C:/xampp/htdocs/touch/" local="131352057718110392" remote="131352057710000000" Dst="0" />
+<file name="RecognitionConfig.php" server="C:/xampp/htdocs/touch/" local="131352057718125432" remote="131352057710000000" Dst="0" />
+<file name="SpeechContext.php" server="C:/xampp/htdocs/touch/" local="131352057718180579" remote="131352057710000000" Dst="0" />
+<file name="SpeechEmpty.php" server="C:/xampp/htdocs/touch/" local="131352057718210655" remote="131352057710000000" Dst="0" />
+<file name="SpeechRecognitionAlternative.php" server="C:/xampp/htdocs/touch/" local="131352057718245752" remote="131352057710000000" Dst="0" />
+<file name="SpeechRecognitionResult.php" server="C:/xampp/htdocs/touch/" local="131352057718285863" remote="131352057710000000" Dst="0" />
+<file name="Status.php" server="C:/xampp/htdocs/touch/" local="131352057718325965" remote="131352057710000000" Dst="0" />
+<file name="SyncRecognizeRequest.php" server="C:/xampp/htdocs/touch/" local="131352057718466343" remote="131352057710000000" Dst="0" />
+<file name="SyncRecognizeResponse.php" server="C:/xampp/htdocs/touch/" local="131352057718486388" remote="131352057710000000" Dst="0" />
+</dwsync>

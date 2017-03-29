@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AuditConfig.php" server="C:/xampp/htdocs/touch/" local="131352057714049592" remote="131352057710000000" Dst="0" />
+<file name="AuditLogConfig.php" server="C:/xampp/htdocs/touch/" local="131352057714064640" remote="131352057710000000" Dst="0" />
+<file name="Binding.php" server="C:/xampp/htdocs/touch/" local="131352057714079672" remote="131352057710000000" Dst="0" />
+<file name="CloudAuditOptions.php" server="C:/xampp/htdocs/touch/" local="131352057714094716" remote="131352057710000000" Dst="0" />
+<file name="Condition.php" server="C:/xampp/htdocs/touch/" local="131352057714109748" remote="131352057710000000" Dst="0" />
+<file name="CounterOptions.php" server="C:/xampp/htdocs/touch/" local="131352057714119779" remote="131352057710000000" Dst="0" />
+<file name="CryptoKey.php" server="C:/xampp/htdocs/touch/" local="131352057714134823" remote="131352057710000000" Dst="0" />
+<file name="CryptoKeyVersion.php" server="C:/xampp/htdocs/touch/" local="131352057714144845" remote="131352057710000000" Dst="0" />
+<file name="DataAccessOptions.php" server="C:/xampp/htdocs/touch/" local="131352057714159885" remote="131352057710000000" Dst="0" />
+<file name="DecryptRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714174929" remote="131352057710000000" Dst="0" />
+<file name="DecryptResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714189969" remote="131352057710000000" Dst="0" />
+<file name="DestroyCryptoKeyVersionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714205005" remote="131352057710000000" Dst="0" />
+<file name="EncryptRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714260152" remote="131352057710000000" Dst="0" />
+<file name="EncryptResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714340365" remote="131352057710000000" Dst="0" />
+<file name="KeyRing.php" server="C:/xampp/htdocs/touch/" local="131352057714365456" remote="131352057710000000" Dst="0" />
+<file name="ListCryptoKeysResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714445642" remote="131352057710000000" Dst="0" />
+<file name="ListCryptoKeyVersionsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714385482" remote="131352057710000000" Dst="0" />
+<file name="ListKeyRingsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714495783" remote="131352057710000000" Dst="0" />
+<file name="ListLocationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714540899" remote="131352057710000000" Dst="0" />
+<file name="Location.php" server="C:/xampp/htdocs/touch/" local="131352057714555935" remote="131352057710000000" Dst="0" />
+<file name="LogConfig.php" server="C:/xampp/htdocs/touch/" local="131352057714570983" remote="131352057710000000" Dst="0" />
+<file name="Policy.php" server="C:/xampp/htdocs/touch/" local="131352057714586015" remote="131352057710000000" Dst="0" />
+<file name="RestoreCryptoKeyVersionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714691295" remote="131352057710000000" Dst="0" />
+<file name="Rule.php" server="C:/xampp/htdocs/touch/" local="131352057714706343" remote="131352057710000000" Dst="0" />
+<file name="SetIamPolicyRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714721383" remote="131352057710000000" Dst="0" />
+<file name="TestIamPermissionsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714731405" remote="131352057710000000" Dst="0" />
+<file name="TestIamPermissionsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057714756476" remote="131352057710000000" Dst="0" />
+<file name="UpdateCryptoKeyPrimaryVersionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057714816632" remote="131352057710000000" Dst="0" />
+</dwsync>

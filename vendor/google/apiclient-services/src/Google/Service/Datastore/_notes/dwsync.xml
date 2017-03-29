@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AllocateIdsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057756617805" remote="131352057750000000" Dst="0" />
+<file name="AllocateIdsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057756637859" remote="131352057750000000" Dst="0" />
+<file name="ArrayValue.php" server="C:/xampp/htdocs/touch/" local="131352057756758179" remote="131352057750000000" Dst="0" />
+<file name="BeginTransactionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057756773215" remote="131352057750000000" Dst="0" />
+<file name="BeginTransactionResponse.php" server="C:/xampp/htdocs/touch/" local="131352057756788255" remote="131352057750000000" Dst="0" />
+<file name="CommitRequest.php" server="C:/xampp/htdocs/touch/" local="131352057756803299" remote="131352057750000000" Dst="0" />
+<file name="CommitResponse.php" server="C:/xampp/htdocs/touch/" local="131352057756818339" remote="131352057750000000" Dst="0" />
+<file name="CompositeFilter.php" server="C:/xampp/htdocs/touch/" local="131352057756833406" remote="131352057750000000" Dst="0" />
+<file name="Entity.php" server="C:/xampp/htdocs/touch/" local="131352057756848423" remote="131352057750000000" Dst="0" />
+<file name="EntityResult.php" server="C:/xampp/htdocs/touch/" local="131352057756858445" remote="131352057750000000" Dst="0" />
+<file name="Filter.php" server="C:/xampp/htdocs/touch/" local="131352057756873485" remote="131352057750000000" Dst="0" />
+<file name="GqlQuery.php" server="C:/xampp/htdocs/touch/" local="131352057756883512" remote="131352057750000000" Dst="0" />
+<file name="GqlQueryParameter.php" server="C:/xampp/htdocs/touch/" local="131352057756933645" remote="131352057750000000" Dst="0" />
+<file name="Key.php" server="C:/xampp/htdocs/touch/" local="131352057757134183" remote="131352057750000000" Dst="0" />
+<file name="KindExpression.php" server="C:/xampp/htdocs/touch/" local="131352057757179295" remote="131352057750000000" Dst="0" />
+<file name="LatLng.php" server="C:/xampp/htdocs/touch/" local="131352057757219405" remote="131352057750000000" Dst="0" />
+<file name="LookupRequest.php" server="C:/xampp/htdocs/touch/" local="131352057757234453" remote="131352057750000000" Dst="0" />
+<file name="LookupResponse.php" server="C:/xampp/htdocs/touch/" local="131352057757254503" remote="131352057750000000" Dst="0" />
+<file name="Mutation.php" server="C:/xampp/htdocs/touch/" local="131352057757274556" remote="131352057750000000" Dst="0" />
+<file name="MutationResult.php" server="C:/xampp/htdocs/touch/" local="131352057757289596" remote="131352057750000000" Dst="0" />
+<file name="PartitionId.php" server="C:/xampp/htdocs/touch/" local="131352057757460045" remote="131352057750000000" Dst="0" />
+<file name="PathElement.php" server="C:/xampp/htdocs/touch/" local="131352057757475085" remote="131352057750000000" Dst="0" />
+<file name="Projection.php" server="C:/xampp/htdocs/touch/" local="131352057757490122" remote="131352057750000000" Dst="0" />
+<file name="PropertyFilter.php" server="C:/xampp/htdocs/touch/" local="131352057757500160" remote="131352057750000000" Dst="0" />
+<file name="PropertyOrder.php" server="C:/xampp/htdocs/touch/" local="131352057757515192" remote="131352057750000000" Dst="0" />
+<file name="PropertyReference.php" server="C:/xampp/htdocs/touch/" local="131352057757535245" remote="131352057750000000" Dst="0" />
+<file name="Query.php" server="C:/xampp/htdocs/touch/" local="131352057757555307" remote="131352057750000000" Dst="0" />
+<file name="QueryResultBatch.php" server="C:/xampp/htdocs/touch/" local="131352057757570343" remote="131352057750000000" Dst="0" />
+<file name="ReadOptions.php" server="C:/xampp/htdocs/touch/" local="131352057757595405" remote="131352057750000000" Dst="0" />
+<file name="RollbackRequest.php" server="C:/xampp/htdocs/touch/" local="131352057757856099" remote="131352057750000000" Dst="0" />
+<file name="RollbackResponse.php" server="C:/xampp/htdocs/touch/" local="131352057757871135" remote="131352057750000000" Dst="0" />
+<file name="RunQueryRequest.php" server="C:/xampp/htdocs/touch/" local="131352057757886179" remote="131352057750000000" Dst="0" />
+<file name="RunQueryResponse.php" server="C:/xampp/htdocs/touch/" local="131352057757906236" remote="131352057750000000" Dst="0" />
+<file name="Value.php" server="C:/xampp/htdocs/touch/" local="131352057757926289" remote="131352057750000000" Dst="0" />
+</dwsync>

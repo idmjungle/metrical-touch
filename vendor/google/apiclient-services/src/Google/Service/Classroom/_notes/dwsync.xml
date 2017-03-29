@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Assignment.php" server="C:/xampp/htdocs/touch/" local="131352057710610445" remote="131352057710000000" Dst="0" />
+<file name="AssignmentSubmission.php" server="C:/xampp/htdocs/touch/" local="131352057710620476" remote="131352057710000000" Dst="0" />
+<file name="Attachment.php" server="C:/xampp/htdocs/touch/" local="131352057710635516" remote="131352057710000000" Dst="0" />
+<file name="ClassroomEmpty.php" server="C:/xampp/htdocs/touch/" local="131352057710650552" remote="131352057710000000" Dst="0" />
+<file name="Course.php" server="C:/xampp/htdocs/touch/" local="131352057710665640" remote="131352057710000000" Dst="0" />
+<file name="CourseAlias.php" server="C:/xampp/htdocs/touch/" local="131352057710675619" remote="131352057710000000" Dst="0" />
+<file name="CourseMaterial.php" server="C:/xampp/htdocs/touch/" local="131352057710695696" remote="131352057710000000" Dst="0" />
+<file name="CourseMaterialSet.php" server="C:/xampp/htdocs/touch/" local="131352057710821005" remote="131352057710000000" Dst="0" />
+<file name="CourseWork.php" server="C:/xampp/htdocs/touch/" local="131352057710836045" remote="131352057710000000" Dst="0" />
+<file name="Date.php" server="C:/xampp/htdocs/touch/" local="131352057710906232" remote="131352057710000000" Dst="0" />
+<file name="DriveFile.php" server="C:/xampp/htdocs/touch/" local="131352057710921268" remote="131352057710000000" Dst="0" />
+<file name="DriveFolder.php" server="C:/xampp/htdocs/touch/" local="131352057710936316" remote="131352057710000000" Dst="0" />
+<file name="Form.php" server="C:/xampp/htdocs/touch/" local="131352057710951352" remote="131352057710000000" Dst="0" />
+<file name="GlobalPermission.php" server="C:/xampp/htdocs/touch/" local="131352057710966392" remote="131352057710000000" Dst="0" />
+<file name="Guardian.php" server="C:/xampp/htdocs/touch/" local="131352057710981436" remote="131352057710000000" Dst="0" />
+<file name="GuardianInvitation.php" server="C:/xampp/htdocs/touch/" local="131352057710996476" remote="131352057710000000" Dst="0" />
+<file name="Invitation.php" server="C:/xampp/htdocs/touch/" local="131352057711011512" remote="131352057710000000" Dst="0" />
+<file name="Link.php" server="C:/xampp/htdocs/touch/" local="131352057711036579" remote="131352057710000000" Dst="0" />
+<file name="ListCourseAliasesResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711051619" remote="131352057710000000" Dst="0" />
+<file name="ListCoursesResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711081703" remote="131352057710000000" Dst="0" />
+<file name="ListCourseWorkResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711066659" remote="131352057710000000" Dst="0" />
+<file name="ListGuardianInvitationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711096743" remote="131352057710000000" Dst="0" />
+<file name="ListGuardiansResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711111783" remote="131352057710000000" Dst="0" />
+<file name="ListInvitationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711126819" remote="131352057710000000" Dst="0" />
+<file name="ListStudentsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711151893" remote="131352057710000000" Dst="0" />
+<file name="ListStudentSubmissionsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711136845" remote="131352057710000000" Dst="0" />
+<file name="ListTeachersResponse.php" server="C:/xampp/htdocs/touch/" local="131352057711171943" remote="131352057710000000" Dst="0" />
+<file name="Material.php" server="C:/xampp/htdocs/touch/" local="131352057711186979" remote="131352057710000000" Dst="0" />
+<file name="ModifyAttachmentsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057711232103" remote="131352057710000000" Dst="0" />
+<file name="MultipleChoiceQuestion.php" server="C:/xampp/htdocs/touch/" local="131352057711247143" remote="131352057710000000" Dst="0" />
+<file name="MultipleChoiceSubmission.php" server="C:/xampp/htdocs/touch/" local="131352057711262179" remote="131352057710000000" Dst="0" />
+<file name="Name.php" server="C:/xampp/htdocs/touch/" local="131352057711272209" remote="131352057710000000" Dst="0" />
+<file name="ReclaimStudentSubmissionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057711287249" remote="131352057710000000" Dst="0" />
+<file name="ReturnStudentSubmissionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057711477752" remote="131352057710000000" Dst="0" />
+<file name="SharedDriveFile.php" server="C:/xampp/htdocs/touch/" local="131352057711487779" remote="131352057710000000" Dst="0" />
+<file name="ShortAnswerSubmission.php" server="C:/xampp/htdocs/touch/" local="131352057711502819" remote="131352057710000000" Dst="0" />
+<file name="Student.php" server="C:/xampp/htdocs/touch/" local="131352057711517859" remote="131352057710000000" Dst="0" />
+<file name="StudentSubmission.php" server="C:/xampp/htdocs/touch/" local="131352057711537912" remote="131352057710000000" Dst="0" />
+<file name="Teacher.php" server="C:/xampp/htdocs/touch/" local="131352057711573005" remote="131352057710000000" Dst="0" />
+<file name="TimeOfDay.php" server="C:/xampp/htdocs/touch/" local="131352057711728423" remote="131352057710000000" Dst="0" />
+<file name="TurnInStudentSubmissionRequest.php" server="C:/xampp/htdocs/touch/" local="131352057711778552" remote="131352057710000000" Dst="0" />
+<file name="UserProfile.php" server="C:/xampp/htdocs/touch/" local="131352057711803619" remote="131352057710000000" Dst="0" />
+<file name="YouTubeVideo.php" server="C:/xampp/htdocs/touch/" local="131352057711818659" remote="131352057710000000" Dst="0" />
+</dwsync>

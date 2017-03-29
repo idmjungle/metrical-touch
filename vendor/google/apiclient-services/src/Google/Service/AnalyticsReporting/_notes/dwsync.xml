@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Cohort.php" server="C:/xampp/htdocs/touch/" local="131352057696212148" remote="131352057690000000" Dst="0" />
+<file name="CohortGroup.php" server="C:/xampp/htdocs/touch/" local="131352057696267299" remote="131352057690000000" Dst="0" />
+<file name="ColumnHeader.php" server="C:/xampp/htdocs/touch/" local="131352057696292369" remote="131352057690000000" Dst="0" />
+<file name="DateRange.php" server="C:/xampp/htdocs/touch/" local="131352057696302392" remote="131352057690000000" Dst="0" />
+<file name="DateRangeValues.php" server="C:/xampp/htdocs/touch/" local="131352057696312423" remote="131352057690000000" Dst="0" />
+<file name="Dimension.php" server="C:/xampp/htdocs/touch/" local="131352057696322449" remote="131352057690000000" Dst="0" />
+<file name="DimensionFilter.php" server="C:/xampp/htdocs/touch/" local="131352057696332472" remote="131352057690000000" Dst="0" />
+<file name="DimensionFilterClause.php" server="C:/xampp/htdocs/touch/" local="131352057696342503" remote="131352057690000000" Dst="0" />
+<file name="DynamicSegment.php" server="C:/xampp/htdocs/touch/" local="131352057696352529" remote="131352057690000000" Dst="0" />
+<file name="GetReportsRequest.php" server="C:/xampp/htdocs/touch/" local="131352057696362552" remote="131352057690000000" Dst="0" />
+<file name="GetReportsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057696367565" remote="131352057690000000" Dst="0" />
+<file name="Metric.php" server="C:/xampp/htdocs/touch/" local="131352057696377592" remote="131352057690000000" Dst="0" />
+<file name="MetricFilter.php" server="C:/xampp/htdocs/touch/" local="131352057696387619" remote="131352057690000000" Dst="0" />
+<file name="MetricFilterClause.php" server="C:/xampp/htdocs/touch/" local="131352057696397649" remote="131352057690000000" Dst="0" />
+<file name="MetricHeader.php" server="C:/xampp/htdocs/touch/" local="131352057696407712" remote="131352057690000000" Dst="0" />
+<file name="MetricHeaderEntry.php" server="C:/xampp/htdocs/touch/" local="131352057696417699" remote="131352057690000000" Dst="0" />
+<file name="OrderBy.php" server="C:/xampp/htdocs/touch/" local="131352057696432739" remote="131352057690000000" Dst="0" />
+<file name="OrFiltersForSegment.php" server="C:/xampp/htdocs/touch/" local="131352057696422712" remote="131352057690000000" Dst="0" />
+<file name="Pivot.php" server="C:/xampp/htdocs/touch/" local="131352057696442769" remote="131352057690000000" Dst="0" />
+<file name="PivotHeader.php" server="C:/xampp/htdocs/touch/" local="131352057696452792" remote="131352057690000000" Dst="0" />
+<file name="PivotHeaderEntry.php" server="C:/xampp/htdocs/touch/" local="131352057696462819" remote="131352057690000000" Dst="0" />
+<file name="PivotValueRegion.php" server="C:/xampp/htdocs/touch/" local="131352057696472845" remote="131352057690000000" Dst="0" />
+<file name="Report.php" server="C:/xampp/htdocs/touch/" local="131352057696482872" remote="131352057690000000" Dst="0" />
+<file name="ReportData.php" server="C:/xampp/htdocs/touch/" local="131352057696517965" remote="131352057690000000" Dst="0" />
+<file name="ReportRequest.php" server="C:/xampp/htdocs/touch/" local="131352057696548045" remote="131352057690000000" Dst="0" />
+<file name="ReportRow.php" server="C:/xampp/htdocs/touch/" local="131352057696683402" remote="131352057690000000" Dst="0" />
+<file name="Segment.php" server="C:/xampp/htdocs/touch/" local="131352057696848845" remote="131352057690000000" Dst="0" />
+<file name="SegmentDefinition.php" server="C:/xampp/htdocs/touch/" local="131352057696853859" remote="131352057690000000" Dst="0" />
+<file name="SegmentDimensionFilter.php" server="C:/xampp/htdocs/touch/" local="131352057696888948" remote="131352057690000000" Dst="0" />
+<file name="SegmentFilter.php" server="C:/xampp/htdocs/touch/" local="131352057696898979" remote="131352057690000000" Dst="0" />
+<file name="SegmentFilterClause.php" server="C:/xampp/htdocs/touch/" local="131352057696903992" remote="131352057690000000" Dst="0" />
+<file name="SegmentMetricFilter.php" server="C:/xampp/htdocs/touch/" local="131352057696914019" remote="131352057690000000" Dst="0" />
+<file name="SegmentSequenceStep.php" server="C:/xampp/htdocs/touch/" local="131352057696924045" remote="131352057690000000" Dst="0" />
+<file name="SequenceSegment.php" server="C:/xampp/htdocs/touch/" local="131352057696934068" remote="131352057690000000" Dst="0" />
+<file name="SimpleSegment.php" server="C:/xampp/htdocs/touch/" local="131352057696939085" remote="131352057690000000" Dst="0" />
+</dwsync>

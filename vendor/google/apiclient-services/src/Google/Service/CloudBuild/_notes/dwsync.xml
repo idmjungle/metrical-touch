@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="Build.php" server="C:/xampp/htdocs/touch/" local="131352057712054285" remote="131352057710000000" Dst="0" />
+<file name="BuildOperationMetadata.php" server="C:/xampp/htdocs/touch/" local="131352057712094392" remote="131352057710000000" Dst="0" />
+<file name="BuildOptions.php" server="C:/xampp/htdocs/touch/" local="131352057712204689" remote="131352057710000000" Dst="0" />
+<file name="BuildStep.php" server="C:/xampp/htdocs/touch/" local="131352057712219725" remote="131352057710000000" Dst="0" />
+<file name="BuildTrigger.php" server="C:/xampp/htdocs/touch/" local="131352057712234765" remote="131352057710000000" Dst="0" />
+<file name="BuiltImage.php" server="C:/xampp/htdocs/touch/" local="131352057712249813" remote="131352057710000000" Dst="0" />
+<file name="CancelBuildRequest.php" server="C:/xampp/htdocs/touch/" local="131352057712264849" remote="131352057710000000" Dst="0" />
+<file name="CancelOperationRequest.php" server="C:/xampp/htdocs/touch/" local="131352057712279889" remote="131352057710000000" Dst="0" />
+<file name="CloudbuildEmpty.php" server="C:/xampp/htdocs/touch/" local="131352057712294925" remote="131352057710000000" Dst="0" />
+<file name="FileHashes.php" server="C:/xampp/htdocs/touch/" local="131352057712304952" remote="131352057710000000" Dst="0" />
+<file name="Hash.php" server="C:/xampp/htdocs/touch/" local="131352057712314975" remote="131352057710000000" Dst="0" />
+<file name="ListBuildsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057712340045" remote="131352057710000000" Dst="0" />
+<file name="ListBuildTriggersResponse.php" server="C:/xampp/htdocs/touch/" local="131352057712330019" remote="131352057710000000" Dst="0" />
+<file name="ListOperationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057712360107" remote="131352057710000000" Dst="0" />
+<file name="Operation.php" server="C:/xampp/htdocs/touch/" local="131352057712435303" remote="131352057710000000" Dst="0" />
+<file name="RepoSource.php" server="C:/xampp/htdocs/touch/" local="131352057712610765" remote="131352057710000000" Dst="0" />
+<file name="Results.php" server="C:/xampp/htdocs/touch/" local="131352057712916587" remote="131352057710000000" Dst="0" />
+<file name="Source.php" server="C:/xampp/htdocs/touch/" local="131352057712936632" remote="131352057710000000" Dst="0" />
+<file name="SourceProvenance.php" server="C:/xampp/htdocs/touch/" local="131352057712951672" remote="131352057710000000" Dst="0" />
+<file name="Status.php" server="C:/xampp/htdocs/touch/" local="131352057712961695" remote="131352057710000000" Dst="0" />
+<file name="StorageSource.php" server="C:/xampp/htdocs/touch/" local="131352057712976739" remote="131352057710000000" Dst="0" />
+</dwsync>

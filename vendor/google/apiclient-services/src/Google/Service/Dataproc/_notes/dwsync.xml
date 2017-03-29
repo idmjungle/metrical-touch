@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="CancelJobRequest.php" server="C:/xampp/htdocs/touch/" local="131352057755143882" remote="131352057750000000" Dst="0" />
+<file name="Cluster.php" server="C:/xampp/htdocs/touch/" local="131352057755158922" remote="131352057750000000" Dst="0" />
+<file name="ClusterConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755173965" remote="131352057750000000" Dst="0" />
+<file name="ClusterMetrics.php" server="C:/xampp/htdocs/touch/" local="131352057755209059" remote="131352057750000000" Dst="0" />
+<file name="ClusterOperationMetadata.php" server="C:/xampp/htdocs/touch/" local="131352057755229112" remote="131352057750000000" Dst="0" />
+<file name="ClusterOperationStatus.php" server="C:/xampp/htdocs/touch/" local="131352057755249162" remote="131352057750000000" Dst="0" />
+<file name="ClusterStatus.php" server="C:/xampp/htdocs/touch/" local="131352057755264209" remote="131352057750000000" Dst="0" />
+<file name="DataprocEmpty.php" server="C:/xampp/htdocs/touch/" local="131352057755279249" remote="131352057750000000" Dst="0" />
+<file name="DiagnoseClusterOutputLocation.php" server="C:/xampp/htdocs/touch/" local="131352057755294285" remote="131352057750000000" Dst="0" />
+<file name="DiagnoseClusterRequest.php" server="C:/xampp/htdocs/touch/" local="131352057755304312" remote="131352057750000000" Dst="0" />
+<file name="DiagnoseClusterResults.php" server="C:/xampp/htdocs/touch/" local="131352057755319352" remote="131352057750000000" Dst="0" />
+<file name="DiskConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755334396" remote="131352057750000000" Dst="0" />
+<file name="GceClusterConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755349436" remote="131352057750000000" Dst="0" />
+<file name="HadoopJob.php" server="C:/xampp/htdocs/touch/" local="131352057755364472" remote="131352057750000000" Dst="0" />
+<file name="HiveJob.php" server="C:/xampp/htdocs/touch/" local="131352057755379512" remote="131352057750000000" Dst="0" />
+<file name="InstanceGroupConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755399565" remote="131352057750000000" Dst="0" />
+<file name="Job.php" server="C:/xampp/htdocs/touch/" local="131352057755414605" remote="131352057750000000" Dst="0" />
+<file name="JobPlacement.php" server="C:/xampp/htdocs/touch/" local="131352057755429645" remote="131352057750000000" Dst="0" />
+<file name="JobReference.php" server="C:/xampp/htdocs/touch/" local="131352057755489849" remote="131352057750000000" Dst="0" />
+<file name="JobStatus.php" server="C:/xampp/htdocs/touch/" local="131352057755605108" remote="131352057750000000" Dst="0" />
+<file name="ListClustersResponse.php" server="C:/xampp/htdocs/touch/" local="131352057755665272" remote="131352057750000000" Dst="0" />
+<file name="ListJobsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057755780575" remote="131352057750000000" Dst="0" />
+<file name="ListOperationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057755795623" remote="131352057750000000" Dst="0" />
+<file name="LoggingConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755815676" remote="131352057750000000" Dst="0" />
+<file name="ManagedGroupConfig.php" server="C:/xampp/htdocs/touch/" local="131352057755830712" remote="131352057750000000" Dst="0" />
+<file name="NodeInitializationAction.php" server="C:/xampp/htdocs/touch/" local="131352057755850769" remote="131352057750000000" Dst="0" />
+<file name="Operation.php" server="C:/xampp/htdocs/touch/" local="131352057755865805" remote="131352057750000000" Dst="0" />
+<file name="OperationMetadata.php" server="C:/xampp/htdocs/touch/" local="131352057755910925" remote="131352057750000000" Dst="0" />
+<file name="OperationStatus.php" server="C:/xampp/htdocs/touch/" local="131352057755930975" remote="131352057750000000" Dst="0" />
+<file name="PigJob.php" server="C:/xampp/htdocs/touch/" local="131352057755946015" remote="131352057750000000" Dst="0" />
+<file name="PySparkJob.php" server="C:/xampp/htdocs/touch/" local="131352057755961059" remote="131352057750000000" Dst="0" />
+<file name="QueryList.php" server="C:/xampp/htdocs/touch/" local="131352057755976099" remote="131352057750000000" Dst="0" />
+<file name="SoftwareConfig.php" server="C:/xampp/htdocs/touch/" local="131352057756176632" remote="131352057750000000" Dst="0" />
+<file name="SparkJob.php" server="C:/xampp/htdocs/touch/" local="131352057756211753" remote="131352057750000000" Dst="0" />
+<file name="SparkSqlJob.php" server="C:/xampp/htdocs/touch/" local="131352057756281916" remote="131352057750000000" Dst="0" />
+<file name="Status.php" server="C:/xampp/htdocs/touch/" local="131352057756437322" remote="131352057750000000" Dst="0" />
+<file name="SubmitJobRequest.php" server="C:/xampp/htdocs/touch/" local="131352057756457379" remote="131352057750000000" Dst="0" />
+<file name="YarnApplication.php" server="C:/xampp/htdocs/touch/" local="131352057756577699" remote="131352057750000000" Dst="0" />
+</dwsync>

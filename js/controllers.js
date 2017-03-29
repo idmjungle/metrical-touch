@@ -23,7 +23,10 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 }]);
 
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', function($scope, $rootScope, $http, $cookies, $location, $timeout) {
-	
+	$http.get("../data/example.json")
+	.then(function(response){
+		console.log(response);
+	});
 
 	
 	

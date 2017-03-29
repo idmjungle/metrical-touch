@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<dwsync>
+<file name="AddonsConfig.php" server="C:/xampp/htdocs/touch/" local="131352057746581112" remote="131352057740000000" Dst="0" />
+<file name="Cluster.php" server="C:/xampp/htdocs/touch/" local="131352057746591135" remote="131352057740000000" Dst="0" />
+<file name="ClusterUpdate.php" server="C:/xampp/htdocs/touch/" local="131352057746871882" remote="131352057740000000" Dst="0" />
+<file name="CreateClusterRequest.php" server="C:/xampp/htdocs/touch/" local="131352057746886925" remote="131352057740000000" Dst="0" />
+<file name="CreateNodePoolRequest.php" server="C:/xampp/htdocs/touch/" local="131352057746901969" remote="131352057740000000" Dst="0" />
+<file name="HorizontalPodAutoscaling.php" server="C:/xampp/htdocs/touch/" local="131352057746922019" remote="131352057740000000" Dst="0" />
+<file name="HttpLoadBalancing.php" server="C:/xampp/htdocs/touch/" local="131352057746937063" remote="131352057740000000" Dst="0" />
+<file name="ListClustersResponse.php" server="C:/xampp/htdocs/touch/" local="131352057746967143" remote="131352057740000000" Dst="0" />
+<file name="ListNodePoolsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057746992205" remote="131352057740000000" Dst="0" />
+<file name="ListOperationsResponse.php" server="C:/xampp/htdocs/touch/" local="131352057747002232" remote="131352057740000000" Dst="0" />
+<file name="MasterAuth.php" server="C:/xampp/htdocs/touch/" local="131352057747012259" remote="131352057740000000" Dst="0" />
+<file name="NodeConfig.php" server="C:/xampp/htdocs/touch/" local="131352057747032316" remote="131352057740000000" Dst="0" />
+<file name="NodePool.php" server="C:/xampp/htdocs/touch/" local="131352057747047352" remote="131352057740000000" Dst="0" />
+<file name="Operation.php" server="C:/xampp/htdocs/touch/" local="131352057747062392" remote="131352057740000000" Dst="0" />
+<file name="ServerConfig.php" server="C:/xampp/htdocs/touch/" local="131352057747277973" remote="131352057740000000" Dst="0" />
+<file name="UpdateClusterRequest.php" server="C:/xampp/htdocs/touch/" local="131352057747303036" remote="131352057740000000" Dst="0" />
+</dwsync>

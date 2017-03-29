@@ -1,0 +1,57 @@
+{
+  "kind": "analytics#gaData",
+  "id": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:130755639&metrics=ga:pageviews,ga:totalEvents,ga:socialInteractions&start-date=30daysAgo&end-date=yesterday",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "ids": "ga:130755639",
+    "metrics": [
+      "ga:pageviews",
+      "ga:totalEvents",
+      "ga:socialInteractions"
+    ],
+    "start-index": 1,
+    "max-results": 1000
+  },
+  "itemsPerPage": 1000,
+  "totalResults": 1,
+  "selfLink": "https://www.googleapis.com/analytics/v3/data/ga?ids=ga:130755639&metrics=ga:pageviews,ga:totalEvents,ga:socialInteractions&start-date=30daysAgo&end-date=yesterday",
+  "profileInfo": {
+    "profileId": "130755639",
+    "accountId": "81911825",
+    "webPropertyId": "UA-81911825-11",
+    "internalWebPropertyId": "127105505",
+    "profileName": "All Web Site Data",
+    "tableId": "ga:130755639"
+  },
+  "containsSampledData": false,
+  "columnHeaders": [
+    {
+      "name": "ga:pageviews",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    },
+    {
+      "name": "ga:totalEvents",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    },
+    {
+      "name": "ga:socialInteractions",
+      "columnType": "METRIC",
+      "dataType": "INTEGER"
+    }
+  ],
+  "totalsForAllResults": {
+    "ga:pageviews": "1451",
+    "ga:totalEvents": "6048",
+    "ga:socialInteractions": "0"
+  },
+  "rows": [
+    [
+      "1451",
+      "6048",
+      "0"
+    ]
+  ]
+}
