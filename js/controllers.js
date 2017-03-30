@@ -10,10 +10,6 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 	$scope.introAnimation = function(){
 		$scope.animation = "";
 		$timeout(function(){
-			$scope.animation = "logo_transition";
-		},500);
-		$timeout(function(){
-			$scope.animation = "logo_end";
 			$location.path('/main');
 		},2500);
 	};

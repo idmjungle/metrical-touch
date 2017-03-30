@@ -30,9 +30,10 @@ body {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 75%;
-	height: 75%;
+	width: 300px;
+	height: 300px;
+	margin-top: -150px;
+	margin-left: -150px;
 	opacity: 1;
 	-webkit-transition: all 500ms ease-in-out;
 	-moz-transition: all 500ms ease-in-out;
