@@ -97,6 +97,10 @@ body {
 	font-size: 22px;
 }
 
+.slider_list div .content {
+	text-align: right;
+}
+
 .slider_list div .number {
 	font-weight: 100;
 	font-size: 125px;
