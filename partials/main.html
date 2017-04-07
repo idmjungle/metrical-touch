@@ -1,36 +1,32 @@
 <session class="window main">
-	<slick class="slider_list" arrows="false" autoplay="true" init-onload=true data="viewData">
-	
-		<div ng-repeat="v in viewData">
-			<div class="title">
-				{{v.Campaign}}
-			</div>
-			
-			
-			<div class="container">
-				<div class="content">
-				<h3>Campaign state</h3>
-				<h4>{{v.Campaign_state}}</h4>
-				
-				<h3>Clicks</h3>
-				<h4>{{v.Clicks}}</h4>
-
-				<h3>Impressions</h3>
-				<h4>{{v.Impressions}}</h4>
-
-				<h3>Budget</h3>
-				<h4>{{v.Budget}}</h4>
-
-				<h3>Status</h3>
-				<h4>{{v.Status}}</h4>
-
-				<h3>Campaign type</h3>
-				<h4>{{v.Campaign_type}}</h4>
-
-				</div>
-			</div>	
-		</div>
-		
-		
-	</slick>
+  <slick class="slider_list" arrows="false" autoplay="true" init-onload=true data="viewData" pauseOnFocus="false" pauseOnHover="false">
+    <div ng-repeat="v in viewData">
+     
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="title"> {{v.Campaign}} </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container">
+        <div class="content">
+          <div class="subtitle">Campaign state</div>
+          <div class="text">{{v.Campaign_state}}</div>
+          <div class="subtitle">Clicks</div>
+          <div class="number">{{v.Clicks}}</div>
+          <div class="subtitle">Impressions</div>
+          <div class="number">{{v.Impressions}}</div>
+          <div class="subtitle">Budget</div>
+          <div class="number">{{v.Budget}}</div>
+          <div class="subtitle">Status</div>
+          <div class="text">{{v.Status}}</div>
+          <div class="subtitle">Campaign type</div>
+          <div class="text">{{v.Campaign_type}}</div>
+        </div>
+      </div>
+      
+    </div>
+  </slick>
 </session>

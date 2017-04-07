@@ -9,6 +9,7 @@
 <link href="/touch/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link href="/touch/css/main.css" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 
 <!-- The Basics -->
