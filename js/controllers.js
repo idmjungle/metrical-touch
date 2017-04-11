@@ -22,15 +22,49 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 					
 }]);
 
-app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', function($scope, $rootScope, $http, $cookies, $location, $timeout) {
-	$http.get("data/campaing.json")
-	.then(function(response){
-		console.log(response);
-		$scope.viewData = response.data;
-		//console.log($scope.viewData);
-	});
-
+app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
+	$scope.getData = function(){
+		$http.get("data/campaing.json")
+		.then(function(response){
+			if(response.status = 200) {
+				console.log(response);
+				$scope.viewData = response.data;
+				//console.log($scope.viewData);
+			} else {
+				
+			}
+		});
+	};
+	
+	
+	$scope.getData();
+	
+	$interval(function(){
+		$scope.getData();
+	},300000);
+	
+	$interval(function(){
+		$scope.animateBG();
+	},60000);
+	
+	$scope.animateBG = function(){
+		$scope.changeBG = "flip";
+		$timeout(function(){
+			$scope.changeBG = "";
+		},5000);
+	};
+	
+	$scope.rotateLogo = function(){
+		$scope.zoomInterval = "zoom";
+		$timeout(function(){
+			$scope.zoomInterval = "start_start";
+		},500);
+		$timeout(function(){
+			$scope.zoomInterval = "";
+		},1000);
+	};
+
 	
 }]);
 

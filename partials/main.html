@@ -1,5 +1,6 @@
 <session class="window main">
-  <slick class="slider_list" arrows="false" autoplay="true" init-onload=true data="viewData" pauseOnFocus="false" pauseOnHover="false">
+ <div class="main_logo" ng-class="zoomInterval"></div>
+  <slick class="slider_list" arrows="false" autoplay="true" autoplay-speed="8000" init-onload="true" data="viewData" pauseOnFocus="false" pauseOnHover="false">
     <div ng-repeat="v in viewData">
      
       <div class="container">
@@ -15,18 +16,23 @@
           <div class="subtitle">Campaign state</div>
           <div class="text">{{v.Campaign_state}}</div>
           <div class="subtitle">Clicks</div>
-          <div class="number">{{v.Clicks}}</div>
+          <div class="number">{{v.Clicks | number:0}}</div>
           <div class="subtitle">Impressions</div>
-          <div class="number">{{v.Impressions}}</div>
-          <div class="subtitle">Budget</div>
-          <div class="number">{{v.Budget}}</div>
-          <div class="subtitle">Status</div>
-          <div class="text">{{v.Status}}</div>
-          <div class="subtitle">Campaign type</div>
-          <div class="text">{{v.Campaign_type}}</div>
+          <div class="number">{{v.Impressions | number:0}}</div>
+
         </div>
       </div>
       
+      
     </div>
   </slick>
+     
+  <div class="container bottom_screen" ng-class="changeBG">
+	<div class="row">
+		<div class="col-xs-10 col-xs-offset-1">
+			<img src="./images/metrical_footer.svg" alt=""/>
+		</div>
+	</div>
+  </div>
+  
 </session>
