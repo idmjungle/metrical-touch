@@ -25,7 +25,7 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
 	$scope.getData = function(){
-		$http.get("data/campaing.json")
+		$http.get("http://174.129.108.63/googleads-php-lib/Test.php")
 		.then(function(response){
 			if(response.status = 200) {
 				console.log(response);
