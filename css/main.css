@@ -18,18 +18,10 @@ body {
 	background-color: #1E8BC3;
 }
 .main {
-	background: #231f20;
-	background: -moz-linear-gradient(left, #231f20 0%, #0f0d0e 100%);
-	background: -webkit-linear-gradient(left, #231f20 0%,#0f0d0e 100%);
-	background: linear-gradient(to right, #231f20 0%,#0f0d0e 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#231f20', endColorstr='#0f0d0e',GradientType=1 );
+	background-color: #1E8BC3;
 }
 .transform {
-	background: #231f20;
-	background: -moz-linear-gradient(left, #231f20 25%, #0f0d0e 75%);
-	background: -webkit-linear-gradient(left, #231f20 25%,#0f0d0e 75%);
-	background: linear-gradient(to right, #231f20 25%,#0f0d0e 75%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#231f20', endColorstr='#0f0d0e',GradientType=1 );
+	background-color: #176D99 !important;
 }
 .main_logo {
    /*background-image: url(../images/metrical_grey.svg);
@@ -160,7 +152,7 @@ body {
 .slider_list div .title {
 	font-weight: 700;
 	font-size: 22px;
-	border-bottom: 5px solid #433f40;
+	border-bottom: 5px solid #fff;
 	text-align: center;
 	margin-bottom: 10px;
 	line-height: 1;

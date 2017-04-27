@@ -25,7 +25,7 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
 	$scope.getData = function(){
-		$http.get("http://174.129.108.63/googleads-php-lib/api.php")
+		$http.get("http://174.129.108.63/googleads-php-lib/att/api.php")
 		.then(function(response){
 			if(response.status = 200) {
 				console.log(response);
@@ -48,6 +48,10 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 		$scope.animateBG();
 	},60000);
 	
+	$interval(function(){
+		$scope.rotateLogo();
+	},20000);
+	
 	$scope.animateBG = function(){
 		$scope.changeBG = "flip";
 		$timeout(function(){
@@ -56,13 +60,13 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 	};
 	
 	$scope.rotateLogo = function(){
-		$scope.zoomInterval = "zoom";
+		$scope.zoomInterval = "";
 		$timeout(function(){
-			$scope.zoomInterval = "start_start";
-		},500);
+			$scope.zoomInterval = "transform";
+		},5000);
 		$timeout(function(){
 			$scope.zoomInterval = "";
-		},1000);
+		},10000);
 	};
 
 	
