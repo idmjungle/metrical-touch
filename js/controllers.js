@@ -24,19 +24,91 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
-	$scope.getData = function(){
-		$http.get("http://174.129.108.63/googleads-php-lib/att/api.php")
-		.then(function(response){
-			if(response.status = 200) {
-				console.log(response);
-				$scope.viewData = response.data;
-				//console.log($scope.viewData);
-			} else {
-				
-			}
-		});
+	var viewData = [];
+	var institutional;
+	var phone;
+	var number = 0;
+	
+	$scope.getData = function() {
+		
+	$http.get("http://174.129.108.63/googleads-php-lib/att/institutional/api.php")
+	.then(function(response){
+			//console.log(response);
+			$scope.institutionalData = response.data;
+			console.log($scope.institutionalData);
+			institutional = $scope.institutionalData;
+			newArray(institutional,"institutional");
+	});
+
+	$http.get("http://174.129.108.63/googleads-php-lib/att/phone/api.php")
+	.then(function(response){
+			//console.log(response);
+			$scope.phoneData = response.data;
+			console.log($scope.phoneData);
+			phone = $scope.phoneData;
+			newArray(phone,"phone");
+	});
+		
+	$http.get("http://174.129.108.63/googleads-php-lib/att/video/api.php")
+	.then(function(response){
+			//console.log(response);
+			$scope.videoData = response.data;
+			console.log($scope.videoData);
+			video = $scope.videoData;
+			newArray(video,"video");
+	});
+	
+	$http.get("http://174.129.108.63/googleads-php-lib/att/tablets/api.php")
+	.then(function(response){
+			//console.log(response);
+			$scope.tabletsData = response.data;
+			console.log($scope.tabletsData);
+			tablets = $scope.tabletsData;
+			newArray(tablets,"tablets");
+	});
+	
+	$http.get("http://174.129.108.63/googleads-php-lib/att/landline/api.php")
+	.then(function(response){
+			//console.log(response);
+			$scope.landlineData = response.data;
+			console.log($scope.landlineData);
+			landline = $scope.landlineData;
+			newArray(landline,"landline");
+	});
+	
+	
+	var newArray = function(object,status) {
+		viewData = viewData.concat(object);
+		console.log(viewData);
+		var total = viewData.length;
+		console.log(total);
+		number++;
+		console.log(number);
+		if (status === "landline") {
+			fixArray(viewData);
+		}
+		
 	};
 	
+	var fixArray = function(object) {
+		var newObject = [];
+		console.log(object);
+		angular.forEach(object,function(v,k) {
+			if (v.Campaign_ID !== "Total") {
+				//alert("Total");
+				console.log(k);
+				newObject.push(v);
+				console.log(newObject);
+			}
+		});
+		
+		$scope.viewData = newObject;
+
+	};
+		
+		
+		
+	};
 	
 	$scope.getData();
 	
