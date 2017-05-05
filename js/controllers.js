@@ -31,7 +31,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 	
 	$scope.getData = function() {
 		
-	$http.get("http://174.129.108.63/googleads-php-lib/att/institutional/api.php")
+	$http.get("http://174.129.108.63/googleads-php-lib/irsi/chilis/api.php")
 	.then(function(response){
 			//console.log(response);
 			$scope.institutionalData = response.data;
@@ -40,7 +40,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 			newArray(institutional,"institutional");
 	});
 
-	$http.get("http://174.129.108.63/googleads-php-lib/att/phone/api.php")
+	$http.get("http://174.129.108.63/googleads-php-lib/irsi/ieat/api.php")
 	.then(function(response){
 			//console.log(response);
 			$scope.phoneData = response.data;
@@ -49,7 +49,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 			newArray(phone,"phone");
 	});
 		
-	$http.get("http://174.129.108.63/googleads-php-lib/att/video/api.php")
+	$http.get("http://174.129.108.63/googleads-php-lib/irsi/maccaroni/api.php")
 	.then(function(response){
 			//console.log(response);
 			$scope.videoData = response.data;
@@ -58,7 +58,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 			newArray(video,"video");
 	});
 	
-	$http.get("http://174.129.108.63/googleads-php-lib/att/tablets/api.php")
+	$http.get("http://174.129.108.63/googleads-php-lib/irsi/ontheborder/api.php")
 	.then(function(response){
 			//console.log(response);
 			$scope.tabletsData = response.data;
@@ -67,7 +67,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 			newArray(tablets,"tablets");
 	});
 	
-	$http.get("http://174.129.108.63/googleads-php-lib/att/landline/api.php")
+	$http.get("http://174.129.108.63/googleads-php-lib/irsi/pfchangs/api.php")
 	.then(function(response){
 			//console.log(response);
 			$scope.landlineData = response.data;
