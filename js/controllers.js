@@ -25,95 +25,110 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
 	var viewData = [];
-	var institutional;
-	var phone;
+	var mainFolder = "att";
+	var subfolder = ["institutional","landline","phone","tablets","video"];
+//	var mainFolder = "irsi";
+//	var subfolder = ["chilis","ieat","maccaroni","ontheborder","pfchangs"];
+	var totalFolders = subfolder.length;
+	/*
+	var chilis;
+	var ieat;
+	var maccaroni;
+	var ontheborder;
+	var pfchangs;
+	*/
 	var number = 0;
 	
-	$scope.getData = function() {
+	$scope.getData = function(viewData,mainFolder,subfolder) {
 		
-	$http.get("http://174.129.108.63/googleads-php-lib/irsi/chilis/api.php")
-	.then(function(response){
-			//console.log(response);
-			$scope.institutionalData = response.data;
-			console.log($scope.institutionalData);
-			institutional = $scope.institutionalData;
-			newArray(institutional,"institutional");
-	});
+		angular.forEach(subfolder,function(v,k) {
+			$http.get("http://174.129.108.63/googleads-php-lib/"+ mainFolder + "/"+ v + "/api.php")
+			.then(function(response){
+					//console.log(response);
+					$scope.theData = response.data;
+					console.log($scope.theData);
+					var arrayData = $scope.theData;
+					newArray(arrayData,v);
+			});
+		});
 
-	$http.get("http://174.129.108.63/googleads-php-lib/irsi/ieat/api.php")
+	/*$http.get("http://174.129.108.63/googleads-php-lib/irsi/ieat/api.php")
 	.then(function(response){
 			//console.log(response);
-			$scope.phoneData = response.data;
-			console.log($scope.phoneData);
-			phone = $scope.phoneData;
-			newArray(phone,"phone");
+			$scope.ieatData = response.data;
+			console.log($scope.ieatData);
+			ieat = $scope.ieatData;
+			newArray(ieat,"ieat");
 	});
 		
 	$http.get("http://174.129.108.63/googleads-php-lib/irsi/maccaroni/api.php")
 	.then(function(response){
 			//console.log(response);
-			$scope.videoData = response.data;
-			console.log($scope.videoData);
-			video = $scope.videoData;
-			newArray(video,"video");
+			$scope.maccaroniData = response.data;
+			console.log($scope.maccaroniData);
+			maccaroni = $scope.maccaroniData;
+			newArray(maccaroni,"maccaroni");
 	});
 	
 	$http.get("http://174.129.108.63/googleads-php-lib/irsi/ontheborder/api.php")
 	.then(function(response){
 			//console.log(response);
-			$scope.tabletsData = response.data;
-			console.log($scope.tabletsData);
-			tablets = $scope.tabletsData;
-			newArray(tablets,"tablets");
+			$scope.ieatData = response.data;
+			console.log($scope.ieatData);
+			ontheborder = $scope.ieatData;
+			newArray(ontheborder,"ontheborder");
 	});
 	
 	$http.get("http://174.129.108.63/googleads-php-lib/irsi/pfchangs/api.php")
 	.then(function(response){
 			//console.log(response);
-			$scope.landlineData = response.data;
-			console.log($scope.landlineData);
-			landline = $scope.landlineData;
-			newArray(landline,"landline");
+			$scope.pfchangsData = response.data;
+			console.log($scope.pfchangsData);
+			pfchangs = $scope.pfchangsData;
+			newArray(pfchangs,"pfchangs");
 	});
+	*/
 	
-	
-	var newArray = function(object,status) {
-		viewData = viewData.concat(object);
-		console.log(viewData);
-		var total = viewData.length;
-		console.log(total);
-		number++;
-		console.log(number);
-		if (status === "landline") {
-			fixArray(viewData);
-		}
-		
-	};
-	
-	var fixArray = function(object) {
-		var newObject = [];
-		console.log(object);
-		angular.forEach(object,function(v,k) {
-			if (v.Campaign_ID !== "Total") {
-				//alert("Total");
-				console.log(k);
-				newObject.push(v);
-				console.log(newObject);
+		var newArray = function(object,status) {
+			viewData = viewData.concat(object);
+			console.log(viewData);
+			var total = viewData.length;
+			console.log(total);
+			number++;
+			console.log(number);
+			if (number === totalFolders) {
+				fixArray(viewData);
 			}
-		});
-		
-		$scope.viewData = newObject;
 
-	};
+		};
+	
+		var fixArray = function(object) {
+			var newObject = [];
+			console.log(object);
+			angular.forEach(object,function(v,k) {
+				if (v.Campaign_ID !== "Total") {
+					//alert("Total");
+					console.log(k);
+					newObject.push(v);
+					console.log(newObject);
+				}
+			});
+
+			$scope.viewData = newObject;
+
+		};
+		
+		
+		
 		
 		
 		
 	};
 	
-	$scope.getData();
+	$scope.getData(viewData,mainFolder,subfolder);
 	
 	$interval(function(){
-		$scope.getData();
+		$scope.getData(viewData,mainFolder,subfolder);
 	},300000);
 	
 	$interval(function(){
