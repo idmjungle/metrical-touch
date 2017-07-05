@@ -25,10 +25,10 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
 	var viewData = [];
+//	var mainFolder = "la_familia";
+//	var subfolder = ["fl","pr"];
 	var mainFolder = "att";
 	var subfolder = ["institutional","landline","phone","tablets","video"];
-//	var mainFolder = "irsi";
-//	var subfolder = ["chilis","ieat","maccaroni","ontheborder","pfchangs"];
 	var totalFolders = subfolder.length;
 	/*
 	var chilis;
@@ -42,7 +42,7 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 	$scope.getData = function(viewData,mainFolder,subfolder) {
 		
 		angular.forEach(subfolder,function(v,k) {
-			$http.get("http://174.129.108.63/googleads-php-lib/"+ mainFolder + "/"+ v + "/api.php")
+			$http.get("https://infopaginasmedia.com/googleads-php-lib/"+ mainFolder + "/"+ v + "/api.php")
 			.then(function(response){
 					//console.log(response);
 					$scope.theData = response.data;
@@ -52,42 +52,6 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 			});
 		});
 
-	/*$http.get("http://174.129.108.63/googleads-php-lib/irsi/ieat/api.php")
-	.then(function(response){
-			//console.log(response);
-			$scope.ieatData = response.data;
-			console.log($scope.ieatData);
-			ieat = $scope.ieatData;
-			newArray(ieat,"ieat");
-	});
-		
-	$http.get("http://174.129.108.63/googleads-php-lib/irsi/maccaroni/api.php")
-	.then(function(response){
-			//console.log(response);
-			$scope.maccaroniData = response.data;
-			console.log($scope.maccaroniData);
-			maccaroni = $scope.maccaroniData;
-			newArray(maccaroni,"maccaroni");
-	});
-	
-	$http.get("http://174.129.108.63/googleads-php-lib/irsi/ontheborder/api.php")
-	.then(function(response){
-			//console.log(response);
-			$scope.ieatData = response.data;
-			console.log($scope.ieatData);
-			ontheborder = $scope.ieatData;
-			newArray(ontheborder,"ontheborder");
-	});
-	
-	$http.get("http://174.129.108.63/googleads-php-lib/irsi/pfchangs/api.php")
-	.then(function(response){
-			//console.log(response);
-			$scope.pfchangsData = response.data;
-			console.log($scope.pfchangsData);
-			pfchangs = $scope.pfchangsData;
-			newArray(pfchangs,"pfchangs");
-	});
-	*/
 	
 		var newArray = function(object,status) {
 			viewData = viewData.concat(object);
