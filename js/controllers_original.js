@@ -25,11 +25,10 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
 	var viewData = [];
-	var fbData = [];
-	var mainFolder = "la_familia";
-	var subfolder = ["fl","pr"];
-//	var mainFolder = "att";
-//	var subfolder = ["institutional","landline","phone","tablets","video"];
+//	var mainFolder = "la_familia";
+//	var subfolder = ["fl","pr"];
+	var mainFolder = "att";
+	var subfolder = ["institutional","landline","phone","tablets","video"];
 	var totalFolders = subfolder.length;
 	/*
 	var chilis;
@@ -41,58 +40,28 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 	var number = 0;
 	
 	$scope.getData = function(viewData,mainFolder,subfolder) {
-		console.log(fbData);
-		var each = 0;
+		
 		angular.forEach(subfolder,function(v,k) {
 			$http.get("https://infopaginasmedia.com/googleads-php-lib/"+ mainFolder + "/"+ v + "/api.php")
 			.then(function(response){
-				each++;
-				console.log(each);
-				$scope.theData = response.data;
-				console.log($scope.theData);
-				var gaData = $scope.theData;
-				//newArray(gaData,v);
-				var gaLength = gaData.length;
-				if (each == totalFolders) {
-				$scope.addFBPRData(gaData);
-				}
-					
+					//console.log(response);
+					$scope.theData = response.data;
+					console.log($scope.theData);
+					var arrayData = $scope.theData;
+					newArray(arrayData,v);
 			});
 		});
-		
-		$scope.addFBPRData = function(firstData) {
-			$http.get("https://infopaginasmedia.com/facebook-php-ads-sdk/la_familia_pr.php")
-			.then(function(response){
-				var secondData = response.data.data;
-				$scope.addFBFLData(firstData,secondData);
-			});
-			
-			
-		};
-		
-		$scope.addFBFLData = function(firstData,secondData) {
-			$http.get("https://infopaginasmedia.com/facebook-php-ads-sdk/la_familia_fl.php")
-			.then(function(response){
-				var thirdData = response.data.data;
-				$scope.uniteTheData(firstData,secondData,thirdData);
-			});
-		};
-		
-		$scope.uniteTheData = function(firstData,secondData,thirdData) {
-			viewData = firstData.concat(secondData,thirdData);
-			console.log(viewData);
-			$scope.viewData = viewData;
-		};
-		
+
+	
 		var newArray = function(object,status) {
 			viewData = viewData.concat(object);
 			console.log(viewData);
-			var total = object.length;
+			var total = viewData.length;
 			console.log(total);
 			number++;
 			console.log(number);
 			if (number === totalFolders) {
-				$scope.viewData = viewData;
+				fixArray(viewData);
 			}
 
 		};
@@ -109,9 +78,15 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 				}
 			});
 
-			//$scope.viewData = newObject;
+			$scope.viewData = newObject;
 
 		};
+		
+		
+		
+		
+		
+		
 	};
 	
 	$scope.getData(viewData,mainFolder,subfolder);

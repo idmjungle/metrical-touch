@@ -2,26 +2,55 @@
   <div class="main_logo" ></div>
   <slick class="slider_list" arrows="false" autoplay="true" autoplay-speed="8000" init-onload="true" data="viewData" pauseOnFocus="false" pauseOnHover="false">
     <div ng-repeat="v in viewData">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12">
-            <div class="title"> <span ng-if="v.Campaign != ' --' ">{{v.Campaign}}</span><span ng-if="v.Campaign == ' --' ">Total</span> </div>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="content"> <span ng-if="v.Campaign != ' --' ">
-          <div class="subtitle">Campaign state</div>
-          <div class="text">{{v.Campaign_state}}</div>
-          </span>
-          <div class="subtitle">Clicks</div>
-          <div class="number">{{v.Clicks | number:0}}</div>
-          <div class="subtitle">Impressions</div>
-          <div class="number">{{v.Impressions | number:0}}</div>
-          <div class="subtitle">CTR</div>
-          <div class="number">{{v.CTR}}</div>
-        </div>
-      </div>
+     
+     <div ng-if="v.Campaign_ID">
+		<div class="container">
+			<div class="row">
+			  <div class="col-xs-12">
+				<div class="title"> <span ng-if="v.Campaign != ' --' ">{{v.Campaign}}</span><span ng-if="v.Campaign == ' --' ">Total</span> </div>
+			  </div>
+			</div>
+		  </div>
+		<div class="container">
+			<div class="content"> <span ng-if="v.Campaign != ' --' ">
+			  <div class="subtitle">Campaign state</div>
+			  <div class="text">{{v.Campaign_state}}</div>
+			  </span>
+			  <div class="subtitle">Clicks</div>
+			  <div class="number">{{v.Clicks | number:0}}</div>
+			  <div class="subtitle">Impressions</div>
+			  <div class="number">{{v.Impressions | number:0}}</div>
+			  <div class="subtitle">CTR</div>
+			  <div class="number">{{v.CTR}}</div>
+			</div>
+		  </div>
+     </div>
+     
+      
+     <div  ng-if="!v.Campaign_ID">
+		<div class="container">
+			<div class="row">
+			  <div class="col-xs-12">
+				<div class="title"> <span>{{v.account_name}} - Facebook</span></div>
+			  </div>
+			</div>
+		  </div>
+		<div class="container">
+			<div class="content">
+		  	  <span ng-repeat="a in v.actions | filter: action_type='like'">
+				  <span ng-if="a.value">
+					  <div class="subtitle">Page Likes</div>
+					  <div class="number">{{a.value | number:0}}</div>
+				  </span>
+			  </span>
+			  <div class="subtitle">Reach</div>
+			  <div class="number">{{v.reach | number:0}}</div>
+			  <div class="subtitle">Engagement</div>
+			  <div class="number" ng-repeat="a in v.actions | filter: action_type='page_engagement'">{{a.value | number:0}}</div>
+			</div>
+		  </div>
+     </div>
+      
     </div>
   </slick>
 <!--
