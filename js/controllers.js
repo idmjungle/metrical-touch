@@ -24,6 +24,8 @@ app.controller('IntroController',['$scope', '$rootScope', '$http', '$cookies', '
 
 app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$location', '$timeout', '$interval', function($scope, $rootScope, $http, $cookies, $location, $timeout, $interval) {
 	
+	$scope.load = false;
+
 	var viewData = [];
 	var fbData = [];
 	var mainFolder = "la_familia";
@@ -43,45 +45,81 @@ app.controller('MainController',['$scope', '$rootScope', '$http', '$cookies', '$
 	$scope.getData = function(viewData,mainFolder,subfolder) {
 		console.log(fbData);
 		var each = 0;
-		angular.forEach(subfolder,function(v,k) {
-			$http.get("https://infopaginasmedia.com/googleads-php-lib/"+ mainFolder + "/"+ v + "/api.php")
-			.then(function(response){
-				each++;
-				console.log(each);
-				$scope.theData = response.data;
-				console.log($scope.theData);
-				var gaData = $scope.theData;
-				//newArray(gaData,v);
-				var gaLength = gaData.length;
-				if (each == totalFolders) {
-				$scope.addFBPRData(gaData);
-				}
-					
-			});
+		//angular.forEach(subfolder,function(v,k) {
+		$http({
+			url: "https://ohok5h60d0.execute-api.us-east-1.amazonaws.com/prod",
+			method: "GET",
+			params: {
+				"client":"367-027-2784"
+			}
+		})
+		.then(function(response){
+			//each++;
+			console.log(response);
+			$scope.theData = response.data;
+			console.log($scope.theData);
+			var gaData = $scope.theData;
+			gaData.forEach(function(e, i) {
+				// Iterate over the keys of object
+				Object.keys(e).forEach(function(key) {
+				  
+				  // Copy the value
+				  var val = e[key],
+					newKey = key.replace(/\s+/g, '_');
+				  
+				  // Remove key-value from object
+				  delete gaData[i][key];
+			  
+				  // Add value with new key
+				  gaData[i][newKey] = val;
+				});
+			  });
+			//newArray(gaData,v);
+			//var gaLength = gaData.length;
+			//if (each == totalFolders) {
+			$scope.facebook(gaData);
+			//}
+				
 		});
+		//});
 		
 		$scope.addFBPRData = function(firstData) {
-			$http.get("https://infopaginasmedia.com/facebook-php-ads-sdk/la_familia_pr.php")
+			$http({
+				url: "https://djr2augmml.execute-api.us-east-1.amazonaws.com/prod",
+				method: "GET",
+				params: {
+					account: "act_1423024001050125"
+				}
+			})
 			.then(function(response){
-				var secondData = response.data.data;
+				console.log(response);
+				var secondData = response.data;
 				$scope.addFBFLData(firstData,secondData);
 			});
 			
 			
 		};
 		
-		$scope.addFBFLData = function(firstData,secondData) {
-			$http.get("https://infopaginasmedia.com/facebook-php-ads-sdk/la_familia_fl.php")
+		$scope.facebook = function(firstData) {
+			$http({
+				url: "https://djr2augmml.execute-api.us-east-1.amazonaws.com/prod",
+				method: "GET",
+				params: {
+					account: "act_1579093295443194"
+				}
+			})
 			.then(function(response){
-				var thirdData = response.data.data;
-				$scope.uniteTheData(firstData,secondData,thirdData);
+				console.log(response);
+				var secondData = response.data;
+				$scope.uniteTheData(firstData,secondData);
 			});
 		};
 		
-		$scope.uniteTheData = function(firstData,secondData,thirdData) {
-			viewData = firstData.concat(secondData,thirdData);
+		$scope.uniteTheData = function(firstData,secondData) {
+			viewData = firstData.concat(secondData);
 			console.log(viewData);
 			$scope.viewData = viewData;
+			$scope.load = true;
 		};
 		
 		var newArray = function(object,status) {
